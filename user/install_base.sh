@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
-MSGCOLOR=`tput setaf 3`
-NOCOLOR=`tput sgr0`
+MSGCOLOR=$(tput setaf 3)
+NOCOLOR=$(tput sgr0)
 
 full_path=$(realpath $0)
 dir_path=$(dirname $full_path)
@@ -33,6 +33,10 @@ printf "${MSGCOLOR}Configuring tig: done${NOCOLOR}\n"
 
 printf "${MSGCOLOR}Configuring broot...${NOCOLOR}\n"
 $dir_path/config_broot.sh
+printf "${MSGCOLOR}Configuring broot: done${NOCOLOR}\n"
+
+printf "${MSGCOLOR}Configuring broot...${NOCOLOR}\n"
+$dir_path/config_vscode.sh
 printf "${MSGCOLOR}Configuring broot: done${NOCOLOR}\n"
 
 printf "${MSGCOLOR}CONFIGURING USER PROFILE: COMPLETED SUCCESSFULLY!!!${NOCOLOR}\n"
