@@ -1,9 +1,15 @@
+# Git tools
 git
 tig # Text-mode interface for git, https://github.com/jonas/tig
 gh # GitHub CLI
+diff-so-fancy # easier to read file diffs
+
+# Editors
 neovim # Modern version of Vim 
 nano # For those who are not Vim's fans
-diff-so-fancy # easier to read file diffs
+
+# Terminal tools
+iterm2 # better terminal
 broot #	a new way to see and navigate directory trees, a mix of ncdu and du, https://github.com/Canop/broot
 bandwhich # 
 sk # Fuzzy finder in Rust, https://github.com/lotabout/skim
@@ -11,8 +17,14 @@ dust # A more intuitive version of du in Rust, https://github.com/bootandy/dust
 bat # A cat clone with wings, written in Rust, https://github.com/sharkdp/bat
 lsd # A next get ls command in Rust, https://github.com/lsd-rs/lsd
 wget
-iterm2 # better terminal
 font-meslo-for-powerlevel10k # Meslo fonts for PowerLevel10k theme for OhMyZsh
+
+# Dev tools
+java
+node # TypeScript, JavaScript
+micromamba # A tiny version of mamba package manager written in C++, https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html
+
+# DevOps tools
 awscli # AWS CLI v2
 kubectl # CLI for Kubernetes
 k9s # Kubernetes CLI To Manage Your Clusters In Style!, https://github.com/derailed/k9s
