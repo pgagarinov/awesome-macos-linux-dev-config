@@ -9,7 +9,6 @@ neovim # Modern version of Vim
 nano # For those who are not Vim's fans
 
 # Terminal tools
-iterm2 # better terminal
 broot #	a new way to see and navigate directory trees, a mix of ncdu and du, https://github.com/Canop/broot
 bandwhich # 
 sk # Fuzzy finder in Rust, https://github.com/lotabout/skim
@@ -18,6 +17,7 @@ bat # A cat clone with wings, written in Rust, https://github.com/sharkdp/bat
 lsd # A next get ls command in Rust, https://github.com/lsd-rs/lsd
 wget
 font-meslo-for-powerlevel10k # Meslo fonts for PowerLevel10k theme for OhMyZsh
+midnight-commander
 
 # Dev tools
 java

@@ -5,6 +5,11 @@ NOCOLOR=`tput sgr0`
 
 full_path=$(realpath $0)
 dir_path=$(dirname $full_path)
+printf "${MSGCOLOR}CONFIGURING USER PROFILE...${NOCOLOR}\n"
+
+printf "${MSGCOLOR}Configuring NeoVim...${NOCOLOR}\n"
+$dir_path/config_neovim.sh
+printf "${MSGCOLOR}Configuring NeoVim: done${NOCOLOR}\n\n"
 
 printf "${MSGCOLOR}Configuring Jupyter...${NOCOLOR}\n"
 $dir_path/config_jupyter.sh
@@ -26,4 +31,8 @@ printf "${MSGCOLOR}Configuring tig...${NOCOLOR}\n"
 $dir_path/config_tig.sh
 printf "${MSGCOLOR}Configuring tig: done${NOCOLOR}\n"
 
-printf "${MSGCOLOR}INSTALLING SERVER STUFF: COMPLETED SUCCESSFULLY!!!${NOCOLOR}\n"
+printf "${MSGCOLOR}Configuring broot...${NOCOLOR}\n"
+$dir_path/config_broot.sh
+printf "${MSGCOLOR}Configuring broot: done${NOCOLOR}\n"
+
+printf "${MSGCOLOR}CONFIGURING USER PROFILE: COMPLETED SUCCESSFULLY!!!${NOCOLOR}\n"
