@@ -1,0 +1,19 @@
+iterm2               # better terminal
+coteditor            # Simple open-source editor, https://github.com/coteditor/CotEditor
+appcleaner           # Easier removal of Apps
+
+# Database clients
+dbeaver-community    # Free and open-source universal database tool and SQL client, https://github.com/dbeaver/dbeaver
+pgadmin4             # Open-source SQL client for PostgreSQL
+
+# IDEs
+visual-studio-code
+
+# Browsers
+alex313031-thorium   # Thorium - The fastest browser on Earth, https://thorium.rocks/
+firefox
+brave-browser
+
+# DevOps tools
+homebrew/cask/docker # Docker Desktop
+openlens             # Open-source fork of Mirantis Lens, https://github.com/MuhammedKalkan/OpenLens

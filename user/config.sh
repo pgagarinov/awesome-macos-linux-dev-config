@@ -16,7 +16,7 @@ $dir_path/config_jupyter.sh
 printf "${MSGCOLOR}Configuring Jupyter: done${NOCOLOR}\n\n"
 
 printf "${MSGCOLOR}Installing and configuring OhMyZsh...${NOCOLOR}\n"
-$dir_path/install_ohmyzsh.sh
+$dir_path/config_ohmyzsh.sh
 printf "${MSGCOLOR}Installing and configuring OhMyZsh: done${NOCOLOR}\n"
 
 printf "${MSGCOLOR}Configuring Diff so Fancy...${NOCOLOR}\n"
