@@ -25,6 +25,7 @@ node               # TypeScript, JavaScript
 micromamba         # A tiny version of mamba package manager written in C++, https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html
 
 # DevOps tools
+docker-compose
 awscli             # AWS CLI v2
 kubectl            # CLI for Kubernetes
 k9s                # Kubernetes CLI To Manage Your Clusters In Style!, https://github.com/derailed/k9s
