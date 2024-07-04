@@ -29,3 +29,6 @@ Configure your MacOS profile via `./user/config.sh` from under YOUR user. This s
 ### Restart your shell
 or run 
 `source ~/.zshrc`
+### Set email and user name for git (if you plan to use it)
+git config --global user.name "Your Name"
+git config --global user.email "your@email.me"
