@@ -1,25 +1,46 @@
-bradlc.vscode-tailwindcss        # Tailwind CSS IntelliSense for Visual Studio Code
-ms-toolsai.jupyter               # Jupyter Notebooks support for Visual Studio Code
-astro-build.astro-vscode         # Astro language support for Visual Studio Code
-rodrigovallades.es7-react-js-snippets # ES7 React/Redux/GraphQL/React-Native snippets
-dbaeumer.vscode-eslint           # Integrates ESLint into Visual Studio Code
-donjayamanne.githistory          # View git log, file history, compare branches or commits
-github.vscode-github-actions     # GitHub Actions workflow support for Visual Studio Code
-eamodio.gitlens                  # Supercharge the Git capabilities in Visual Studio Code
-graphql.vscode-graphql           # GraphQL syntax highlighting, linting, and autocompletion
-graphql.vscode-graphql-syntax    # Syntax highlighting for GraphQL
-ecmel.vscode-html-css            # Support for HTML and CSS development
+# Python
 ms-python.vscode-pylance         # Fast, feature-rich language support for Python
 ms-python.pylint                 # Python linting support for Visual Studio Code
 ms-python.python                 # Python support for Visual Studio Code, including editing, linting, and debugging
 ms-python.debugpy                # Debugging support for Python in Visual Studio Code
-mechatroner.rainbow-csv          # CSV file viewer and highlighter
 charliermarsh.ruff               # Fast Python linter
+ms-toolsai.jupyter               # Jupyter Notebooks support for Visual Studio Code
+
+# TypeScript/JavaScript/WebDev
+esbenp.prettier-vscode           # Code formatter using prettier
+rodrigovallades.es7-react-js-snippets # ES7 React/Redux/GraphQL/React-Native snippets
+dbaeumer.vscode-eslint           # Integrates ESLint into Visual Studio Code
+bradlc.vscode-tailwindcss        # Tailwind CSS IntelliSense for Visual Studio Code
+ecmel.vscode-html-css            # Support for HTML and CSS development
+
+# Astro (TypeScript/JavaScript)
+astro-build.astro-vscode         # Astro language support for Visual Studio Code
+
+# Git
+donjayamanne.githistory          # View git log, file history, compare branches or commits
+eamodio.gitlens                  # Supercharge the Git capabilities in Visual Studio Code
+
+# GitHub
+github.vscode-pull-request-github # Pull Request and Issue Provider for GitHub Install
+github.vscode-github-actions     # GitHub Actions workflow support for Visual Studio Code
+
+# GraphQL
+graphql.vscode-graphql           # GraphQL syntax highlighting, linting, and autocompletion
+graphql.vscode-graphql-syntax    # Syntax highlighting for GraphQL
+
+# DevOps
 ms-azuretools.vscode-docker      # Tools for developing and deploying Docker applications
 ms-kubernetes-tools.vscode-kubernetes-tools # Tools for working with Kubernetes clusters
 ms-vscode-remote.remote-ssh      # Remote development over SSH
-amazonwebservices.amazon-q-vscode # AWS Quantum solutions in Visual Studio Code
 kddejong.vscode-cfn-lint         # CloudFormation Linter
-esbenp.prettier-vscode           # Code formatter using prettier
+
+# Copilots
+amazonwebservices.amazon-q-vscode # AWS Quantum solutions in Visual Studio Code
+github.copilot
+
+# CSV
+mechatroner.rainbow-csv          # CSV file viewer and highlighter
+
+# Markdown
 yzhang.markdown-all-in-one       # All-in-one Markdown support
 yzane.markdown-pdf               # Convert Markdown files to PDF
