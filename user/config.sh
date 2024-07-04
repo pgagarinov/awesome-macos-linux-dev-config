@@ -39,4 +39,8 @@ printf "${MSGCOLOR}Configuring broot...${NOCOLOR}\n"
 $dir_path/config_vscode.sh
 printf "${MSGCOLOR}Configuring broot: done${NOCOLOR}\n"
 
+printf "${MSGCOLOR}Configuring micromamba...${NOCOLOR}\n"
+$dir_path/config_vscode.sh
+printf "${MSGCOLOR}Configuring micromamba: done${NOCOLOR}\n"
+
 printf "${MSGCOLOR}CONFIGURING USER PROFILE: COMPLETED SUCCESSFULLY!!!${NOCOLOR}\n"

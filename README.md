@@ -9,6 +9,9 @@ for
   - Machine Learning and Data Science (Jupyter, VSCode)
   - Minimalistic set of applications (Thorium, Brave, Firefox, CotEditor, AppCleaner,...)
 
+## Assumptions
+- Your shell is *Zsh*
+
 ## Prerequisites
 1. Install homebrew via the following instructions from https://brew.sh/
 2. Install GitHub CLI via `brew install gh`
@@ -23,3 +26,6 @@ Install system-wide packages for terminal experience  via `./install-terminal-pa
 Install packages for Desktop experience via `./install-desktop-packages.sh`
 ### User-specific packages
 Configure your MacOS profile via `./user/config.sh` from under YOUR user. This script is different from the previous two scripts as it does not require sudo access and is intended to be run from under your user.
+### Restart your shell
+or run 
+`source ~/.zshrc`
