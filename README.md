@@ -3,9 +3,11 @@ This repository contains an collection of bash scripts that I use to configure m
 
 for 
   - Productive work in a terminal (iterm2, Zsh, Oh-My-Zsh, Powerlevel10k, FZF, Bat, Lsd, NeoVim+LazyVim, Broot,...)
-  - Software Development in Python (Jupyter, Micromamba, VSCode + Extensions, pgAdmin, DBeaver,...)
-  - Software Development in TypeScript (VScode + Extensions, Node.js, NPM)
-  - DevOps (AWS, Docker, Kubernetes)
+  - Software Development in Python (Jupyter, Micromamba, Conda, VSCode + Extensions)
+  - Software Development in TypeScript (VScode + Extensions, Node.js, NPM, NVM)
+  - Software Development in Java (JDK, jenv)
+  - Database Development (PgAdmin, DBeaver,...)
+  - DevOps (AWS, Docker, Kubernetes, Granted,...)
   - Machine Learning and Data Science (Jupyter, VSCode)
   - Minimalistic set of applications (Thorium, Brave, Firefox, CotEditor, AppCleaner,...)
 
