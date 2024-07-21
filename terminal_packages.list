@@ -21,7 +21,9 @@ midnight-commander
 
 # Dev tools
 java
+jenv               # Java version manager, https://www.jenv.be/
 node               # TypeScript, JavaScript
+nvm                # Node version manager, https://github.com/nvm-sh/nvm
 micromamba         # A tiny version of mamba package manager written in C++, https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html
 
 # DevOps tools
