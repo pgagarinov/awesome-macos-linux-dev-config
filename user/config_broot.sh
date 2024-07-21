@@ -1,3 +1,5 @@
 #!/bin/bash
 set -e
-broot --install # this step needs to be run for specific user
+if which broot &>/dev/null; then
+  broot --install # this step needs to be run for specific user
+fi
