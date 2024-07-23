@@ -20,3 +20,10 @@ openlens             # Open-source fork of Mirantis Lens, https://github.com/Muh
 
 # Remote Desktop tools
 homebrew/cask/remoteviewer # OSX Client for SPICE, https://www.spice-space.org/osx-client.html
+homebrew/cask/microsoft-remote-desktop
+
+# Screen recording tools
+obs
+
+# Video Conferencing Software
+zoom

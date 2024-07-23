@@ -27,9 +27,29 @@ nvm                # Node version manager, https://github.com/nvm-sh/nvm
 micromamba         # A tiny version of mamba package manager written in C++, https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html
 
 # DevOps tools
+## Docker tools
 docker-compose
+
+## Cloud tools
 awscli             # AWS CLI v2
+common-fate/granted/granted  # The easiest way to access your cloud (AWS)
+aws-amplify
+aws-sam-cli
+aws-cdk
+
+## Kubernetes tools
 kubectl            # CLI for Kubernetes
 k9s                # Kubernetes CLI To Manage Your Clusters In Style!, https://github.com/derailed/k9s
-common-fate/granted/granted  # The easiest way to access your cloud (AWS)
 k3d                # Little helper to run CNCF's k3s in Docker, https://github.com/k3d-io/k3d
+devspace
+vcluster
+krew
+kubeseal
+helm
+kustomize
+
+## Infrastructure as Code tools
+ansible
+molecule # https://github.com/ansible/molecule
+molecule-plugin
+terraform
