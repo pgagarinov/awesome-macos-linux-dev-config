@@ -184,7 +184,9 @@ bindkey '^Z' _zsh_cli_fg
 
 export DOCKER_BUILDKIT=1
 
-export PATH="${PATH}:${HOME}/.krew/bin"
+# OLD version: export PATH="${PATH}:${HOME}/.krew/bin"
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
 
 export NVM_DIR="$HOME/.nvm"
     [ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" # This loads nvm
@@ -193,3 +195,9 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# Nix package manager (per-user installation)
+if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then
+    . ~/.nix-profile/etc/profile.d/nix.sh
+fi
+EOF

@@ -16,7 +16,7 @@ brave #brave-browser
 
 # DevOps tools
 #homebrew/cask/docker # Docker Desktop
-# openlens             # Open-source fork of Mirantis Lens, https://github.com/MuhammedKalkan/OpenLens
+openlens             # Open-source fork of Mirantis Lens, https://github.com/MuhammedKalkan/OpenLens
 
 # Remote Desktop tools
 virt-viewer #homebrew/cask/remoteviewer # OSX Client for SPICE, https://www.spice-space.org/osx-client.html
