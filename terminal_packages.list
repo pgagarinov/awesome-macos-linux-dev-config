@@ -11,31 +11,32 @@ nano               # For those who are not Vim's fans
 # Terminal tools
 broot              # a new way to see and navigate directory trees, a mix of ncdu and du, https://github.com/Canop/broot
 bandwhich
-sk                 # Fuzzy finder in Rust, https://github.com/lotabout/skim
+skim #sk                 # Fuzzy finder in Rust, https://github.com/lotabout/skim
 dust               # A more intuitive version of du in Rust, https://github.com/bootandy/dust
 bat                # A cat clone with wings, written in Rust, https://github.com/sharkdp/bat
 lsd                # A next get ls command in Rust, https://github.com/lsd-rs/lsd
 wget
-font-meslo-for-powerlevel10k  # Meslo fonts for PowerLevel10k theme for OhMyZsh
-midnight-commander
+meslo-lgs-nf# font-meslo-for-powerlevel10k  # Meslo fonts for PowerLevel10k theme for OhMyZsh
+mc #midnight-commander
 
 # Dev tools
-java
-jenv               # Java version manager, https://www.jenv.be/
-node               # TypeScript, JavaScript
-nvm                # Node version manager, https://github.com/nvm-sh/nvm
+jdk #java
+# jenv               # Java version manager, https://www.jenv.be/
+nodejs_22 #node               # TypeScript, JavaScript
+#nvm                # Node version manager, https://github.com/nvm-sh/nvm
 micromamba         # A tiny version of mamba package manager written in C++, https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html
 
 # DevOps tools
 ## Docker tools
 docker-compose
+docker
 
 ## Cloud tools
-awscli             # AWS CLI v2
-common-fate/granted/granted  # The easiest way to access your cloud (AWS)
-aws-amplify
-aws-sam-cli
-aws-cdk
+awscli2 #awscli             # AWS CLI v2
+granted  # The easiest way to access your cloud (AWS)
+# aws-amplify
+# aws-sam-cli # build fails for Nix
+# aws-cdk
 
 ## Kubernetes tools
 kubectl            # CLI for Kubernetes
@@ -51,5 +52,5 @@ kustomize
 ## Infrastructure as Code tools
 ansible
 molecule # https://github.com/ansible/molecule
-molecule-plugin
+# molecule-plugin
 terraform

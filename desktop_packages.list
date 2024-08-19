@@ -1,29 +1,29 @@
-iterm2               # better terminal
-coteditor            # Simple open-source editor, https://github.com/coteditor/CotEditor
-appcleaner           # Easier removal of Apps
+# iterm2               # better terminal
+# coteditor            # Simple open-source editor, https://github.com/coteditor/CotEditor
+# appcleaner           # Easier removal of Apps
 
 # Database clients
-dbeaver-community    # Free and open-source universal database tool and SQL client, https://github.com/dbeaver/dbeaver
-pgadmin4             # Open-source SQL client for PostgreSQL
+dbeaver-bin #dbeaver-community    # Free and open-source universal database tool and SQL client, https://github.com/dbeaver/dbeaver
+pgadmin4-desktopmode #pgadmin4             # Open-source SQL client for PostgreSQL
 
 # IDEs
-visual-studio-code
+vscode #visual-studio-code
 
 # Browsers
-alex313031-thorium   # Thorium - The fastest browser on Earth, https://thorium.rocks/
+#alex313031-thorium   # Thorium - The fastest browser on Earth, https://thorium.rocks/
 firefox
-brave-browser
+brave #brave-browser
 
 # DevOps tools
-homebrew/cask/docker # Docker Desktop
-openlens             # Open-source fork of Mirantis Lens, https://github.com/MuhammedKalkan/OpenLens
+#homebrew/cask/docker # Docker Desktop
+# openlens             # Open-source fork of Mirantis Lens, https://github.com/MuhammedKalkan/OpenLens
 
 # Remote Desktop tools
-homebrew/cask/remoteviewer # OSX Client for SPICE, https://www.spice-space.org/osx-client.html
-homebrew/cask/microsoft-remote-desktop
+virt-viewer #homebrew/cask/remoteviewer # OSX Client for SPICE, https://www.spice-space.org/osx-client.html
+# homebrew/cask/microsoft-remote-desktop
 
 # Screen recording tools
-obs
+obs-studio #obs
 
 # Video Conferencing Software
-zoom
+zoom-us #zoom
