@@ -14,4 +14,6 @@ after addin `export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"` to `.zshrc`
 - molecule-plugin had to be commented out but it seems to be missing on MacOS as well
 - a plugin for OpenLens (on AMDx86_64) needs to be installed manually via - https://github.com/alebcay/openlens-node-pod-menu
 - Meslo font needs to be additionally configured - see  https://stackoverflow.com/a/68972770
+- openlens doesn't work when installed via Nix, installing manually from https://github.com/MuhammedKalkan/OpenLens worked
+
 
